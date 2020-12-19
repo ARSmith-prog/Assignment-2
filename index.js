@@ -1,1 +1,1 @@
-Alert ( "Welcome to my first portfolio!");
+alert ("Welcome to my first portfolio!");

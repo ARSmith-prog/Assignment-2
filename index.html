@@ -3,35 +3,91 @@
   <head>
     <link href="style.css" type="text/css" rel="stylesheet">
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Alannah Smith Portfolio</title>
-  <meta name="author" content="Alannah Smith">
-  <meta name="description" content="Web Developer Portfilo">
-  <meta name="keywords" content="web developer, portfolio, website builder">
-</head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Best Portfolio</title>
+    <meta name="author" content="Alannah Smith">
+    <meta name="description" content="Web Developer Portfilo">
+    <meta name="keywords" content="web developer, portfolio, website builder">
+  </head>
 
   <body>
 
-    <header id="home">
-      <h1>Welcome, I'm Alannah. I develop unique webistes </h1>
+    <header>
+
+      <div id = "navlist">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a> 
+            <a href="contact.html">Contact Me</a> 
+
+      </div>
+      
     </header>
+
+
+
+    <h3> Hi, my name is</h3>
+    <h1> Alannah Smith </h1>
+    <h4> Your Next Front End Developer </h4>
+
+    <br> 
+
+    <h2> About Me </h2>
+    <p> I gained interest in programming in 2018. I went to my local college to get into the tranfer
+      program. However, fate had other plans; to this day I cant recall exactly what lead to me enrolling 
+      for my current degree in that office but I am grateful. I now have an Associates Degree in Mobile Applicaion Development.
+      I have been working in HTML, CSS, Javascript, Python and Java.
+      The efficiecncy and creativity are what I love so much about coding. 
+      I am eager to learn more and push the limits of what can be achieved in the tech industry. </p>
     
-    <script src="index.js" type="text/javascript"></script>
-    <img src="http://placeimg.com/400/350/nature" alt "nature images">
-
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
   
-    </nav>
 
-    <p>Front End Developer/Web Developer/Wordpress</p>
+    <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
+    <h2 class ="up">Experience with </h2>
+
+    <div class="row">
+      <div class="column">
+        <li>Java</li>
+        <li>Python</li>
+        <li>SQL</li>
+      </div>
+      <div class="column">
+        <li> HTML</li>
+        <li>CSS</li>
+       <li>JavaScript</li>
+      </div>
+    </div>
+
+    <br>
+    <h2>Projects</h2>
+
+   <div class= "flex-container">
+    <div><img src="abrick.jpg" alt ="filler"style="width:450px;height:300px;"></div>
+
+    <div><img src="abrick.jpg" alt ="filler"style="width:450px;height:300px;"></div>
+
+    <div><img src="abrick.jpg" alt ="filler"style="width:450px;height:300px;"></div>
+
+    </div>
+
+     <script src="index.js" type="text/javascript"></script>
+
+     <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+      </script>
+
+   
 
 <footer>
-  <p>Posted by: Alannah Smith</p>
-  <p>Page Creation Date: 11/16/20</p>
+  <p1 >Page Author: Alannah Smith</p1>
+  <p1 >Page Creation Date: 11/16/20</p1>
 </footer>
 
   </body>

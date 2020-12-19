@@ -1,19 +1,127 @@
 body {
-    background: rgb(246, 238, 215);
+    background-image: linear-gradient(20deg, rgba(35, 131, 110, 0.664), 
+    rgba(77, 118, 255, 0.377)), url("neat.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align:center;
+    color: white;
+    font-family: "Goudy Old Style";
+}
+
+
+
+/*
+body {
+
+    background: rgb(156, 184, 211);
+    background-image: <src= abrick.jpg>;
     box-shadow: 10px 0px 25px rgba(51, 51, 51, 0.7),
                 -10px 0px 25px rgba(51, 51, 51, 0.7);
     margin: 0px auto;
     width: 1020px;
     text-align:center;
-    background-image: src=("http://placeimg.com/400/350/nature");
- }
+}*/
 
- 
+h1 {
+font-size: 85px;
+font-weight: bold;
+padding: 0px;
+margin: 0px;
 
- nav{
-     color: #3b0aec;
-     font-size: 20pt;
-     padding: 20px;
-     
- }
+}
 
+h3 {
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 150px;
+}
+
+h2 {
+    margin-top: 210px;
+    font-size: 40px;  
+}
+
+.up {
+    margin-top: 90px;
+}
+
+h4{
+    font-size: 35px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 23px; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+ footer{
+        padding-top: 70px;
+        display: flex;
+}
+
+p1{
+    flex: 50%;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 0px;
+  }
+  
+  li {
+      padding:7px;
+  }
+  .column {
+    flex: 50%;
+    font-weight: bold;
+    font-size: 30px;
+    list-style-type: none;
+    margin-top: 50px;
+    background-color:rgb(27, 85, 137);
+
+    
+  }
+
+img {
+    border-radius: 175px;
+}
+
+
+#navlist{
+padding-top: 50px;
+
+}
+  #navlist a{
+
+    color: rgb(9, 11, 153);
+    font-weight: bold;
+    font-family: "Goudy Old Style";
+    text-decoration: none;
+    font-size: 27pt;
+    padding: 20px 15px;
+
+  }
+
+  #navlist > a:hover {
+    color: rgba(148, 46, 46, 0.897);
+  }
+
+
+  .flex-container > div {
+
+
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction:row;
+    flex-flow: wrap;
+    justify-content: space-around;
+  }
+    
